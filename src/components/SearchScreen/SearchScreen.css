@@ -1,0 +1,125 @@
+.search-screen-header {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 13vh;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.search-screen-header div:nth-child( 3 ) {
+  display: flex;
+}
+
+.search-screen-header p {
+  border: 1px solid black;
+  border-left: none;
+  padding: 10px;
+  text-align: center;
+  width: 3vw;
+}
+
+.search-screen-header a {
+  border: 1px solid black;
+  color: black;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.search-container input {
+  border: 1px solid black;
+  height: 7vh;
+  outline: none;
+  padding: 0 80px 0 10px;
+  width: 30vw;
+}
+
+.search-container button {
+  background-color: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 10px;
+  position: relative;
+  right: 70px;
+}
+
+.search-screen-main {
+  display: flex;
+}
+
+.search-screen-side-bar {
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  width: 20vw;
+}
+
+.search-screen-side-bar button {
+  background-color: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  height: 5vh;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.search-screen-side-bar .categorySelected {
+  background-color: black;
+  color: white;
+}
+
+.search-screen-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  width: 80vw;
+}
+
+.search-screen-product {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 0 0 15px;
+  text-align: center;
+  width: 20vw;
+}
+
+.search-screen-product img {
+  height: 150px;
+}
+
+.search-screen-product div:nth-child( 1 ) {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.search-screen-product button {
+  background-color: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.search-screen-product button:nth-child( 1 ) {
+  margin-right: 10px;
+}
+
+.search-screen-product a {
+  color: black;
+  text-decoration: none;
+}

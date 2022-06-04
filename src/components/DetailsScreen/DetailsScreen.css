@@ -1,0 +1,59 @@
+.details-screen-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+.details-screen-header {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 13vh;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.details-screen-header div:nth-child( 2 ) {
+  display: flex;
+}
+
+.details-screen-header p {
+  border: 1px solid black;
+  border-left: none;
+  padding: 10px;
+  text-align: center;
+  width: 3vw;
+}
+
+.details-screen-header a {
+  border: 1px solid black;
+  color: black;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.details-screen-details {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  text-align: center;
+  width: 50%;
+}
+
+.details-screen-details img {
+  height: 150px;
+}
+
+.details-screen-details button {
+  background-color: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 10px;
+}

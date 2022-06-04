@@ -1,0 +1,82 @@
+.rates-main {
+  border-top: 1px solid black;
+  display: flex;
+}
+
+.rates-main form {
+  border-right: 1px solid black;
+  padding-top: 50px;
+  width: 25vw;
+}
+
+.rates-main form div {
+  margin: auto;
+  width: 80%;
+}
+
+.rates-main textarea {
+  margin-bottom: 5px;
+  padding: 7px 10px;
+  resize: none;
+}
+
+.rates-main form div input, .rates-main form div textarea {
+  border: 1px solid black;
+  outline: none;
+  width: 100%;
+}
+
+.rates-main form div input::placeholder, .rates-main form div textarea::placeholder {
+  color: black;
+}
+
+.rates-main form div input {
+  height: 5vh;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.rates-main button {
+  background-color: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.rates-main div:nth-child( 2 ) {
+  margin-bottom: 10px;
+}
+
+.rates-buttons button {
+  margin: 0 3px;
+}
+
+.rates-buttons button:focus {
+  background-color: black;
+  color: white;
+}
+
+.rates-main .all-rates {
+  min-height: 70vh;
+  padding: 50px;
+  width: 75vw;
+}
+
+.all-rates > div > p {
+  margin-top: 15px;
+}
+
+.all-rates div div p:nth-child( 2 ) {
+  margin: 5px 0;
+}
+
+.rates-item {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+  min-height: 15vh;
+  padding: 0 20px;
+}
