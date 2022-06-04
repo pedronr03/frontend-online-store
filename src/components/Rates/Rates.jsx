@@ -47,7 +47,7 @@ export default class Rates extends Component {
   }
 
   render() {
-    const { email, evaluation, rates } = this.state;
+    const { email, evaluation, rates, nota } = this.state;
     return (
       <main className="rates-main">
         <form>
@@ -72,6 +72,7 @@ export default class Rates extends Component {
               onClick={ this.handleInput }
               value="1"
               data-testid="1-rating"
+              className={ nota === '1' && 'rateSelected' }
             >
               1
             </button>
@@ -81,6 +82,7 @@ export default class Rates extends Component {
               onClick={ this.handleInput }
               value="2"
               data-testid="2-rating"
+              className={ nota === '2' && 'rateSelected' }
             >
               2
             </button>
@@ -90,6 +92,7 @@ export default class Rates extends Component {
               onClick={ this.handleInput }
               value="3"
               data-testid="3-rating"
+              className={ nota === '3' && 'rateSelected' }
             >
               3
             </button>
@@ -99,6 +102,7 @@ export default class Rates extends Component {
               onClick={ this.handleInput }
               value="4"
               data-testid="4-rating"
+              className={ nota === '4' && 'rateSelected' }
             >
               4
             </button>
@@ -108,6 +112,7 @@ export default class Rates extends Component {
               onClick={ this.handleInput }
               value="5"
               data-testid="5-rating"
+              className={ nota === '5' && 'rateSelected' }
             >
               5
             </button>

@@ -37,7 +37,6 @@
 }
 
 .rates-main button {
-  background-color: inherit;
   border: 1px solid black;
   cursor: pointer;
   font-weight: 500;
@@ -52,9 +51,9 @@
   margin: 0 3px;
 }
 
-.rates-buttons button:focus {
-  background-color: black;
+.rateSelected {
   color: white;
+  background-color: black;
 }
 
 .rates-main .all-rates {
